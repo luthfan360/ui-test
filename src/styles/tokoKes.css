@@ -1,0 +1,60 @@
+:root {
+    --whitesmoke: rgb(244,246,246);
+    font-family: 'calibri';
+}
+
+.tokoKes {
+    background-color: var(--whitesmoke);
+    position: relative;
+    top: 8vh;
+    height: 100vh;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.toprow {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.title {
+    text-align: left;
+    width: 50%;
+    margin: 80px 50px;
+}
+
+.balance {
+    text-align: right;
+    width: 50%;
+    margin: 80px 50px;
+}
+
+input {
+    background-color: var(--turq);
+    width: 85%;
+    height: 7.5%;
+    margin: auto;
+    border: 0;
+    border-radius: 25px 25px 0 25px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.optionsTitle {
+    text-align: left;
+    margin: 50px 0 20px 50px;
+}
+
+.healthProducts {
+    display: grid;
+    justify-content: center;
+}

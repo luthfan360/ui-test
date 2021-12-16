@@ -1,0 +1,40 @@
+:root {
+    --turq: rgb(0,202,205);
+}
+
+.header {
+    background-color: var(--turq);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.small-icon {
+    max-height: 2.5rem;
+    padding: 5px;
+    margin: 15px;
+}
+
+.header-left {
+    width: 50%;
+}
+
+.header-right {
+    width: 50%;
+}
+
+.account {
+    float: right;
+}
+
+.notif {
+    float: right;
+}
+
+
+
+
+

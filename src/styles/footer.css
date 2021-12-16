@@ -1,0 +1,78 @@
+.footer {
+    background-color: white;
+    width: 100vw;
+    max-height: 15vh;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Calibri';
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-footer, .right-footer {
+    display: flex;
+    flex-direction: row;  
+    width: 50%;
+    max-width: 50vw;
+    justify-content: space-around;
+}
+
+.left-footer {
+    margin-right: 7.5vw;
+}
+
+.middle-footer {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -13vw;
+}
+
+.right-footer {
+    margin-left: 7.5vw;
+}
+
+.footer-icon {
+    max-width: 5vw;
+    min-height: 5vw;
+    padding: 5px;
+    margin: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.scan  {
+    background-color: var(--turq);
+    border-radius: 50%;
+    padding: 25px;
+    max-height: 12vw;
+    max-width: 12vw;
+}
+
+.scan-icon {
+    max-height: 8vw;
+}
+
+.home, .drugs, .consult, .history, .scan {
+    margin: 10px;
+    text-align: center;
+}
+
+.home, .drugs {
+    /* float: left; */
+}
+
+.consult, .history {
+    /* float: right; */
+}
+
+h3 {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    margin-top: 0;
+}
+
+
