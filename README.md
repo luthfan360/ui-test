@@ -5,7 +5,7 @@ This project was created using React
 - Fetching images and text data from an API
 - Using vanilla CSS due to time contstraints
 - Responsive Design (unfinished)
-- The whole thing was created from scratch for around 4 Hours
+- The whole thing was created from scratch at around 4 Hours total
 
 ## Available Scripts
 
